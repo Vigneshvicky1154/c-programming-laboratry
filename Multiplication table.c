@@ -8,7 +8,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         prd=a*i;
-        printf("%d*%d=%d\n",i,a,prd);
+        printf("%d*%d=%d\n",a,i,prd);
     }
     return 0;
 }
