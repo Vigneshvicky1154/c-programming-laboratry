@@ -3,7 +3,7 @@
 int main() 
 {
     int nf,n1=0,n2=1,n3;
-    scanf("%d", &n);
+    scanf("%d", &nf);
     for (int i=1;i<=nf;i++)
     {
         printf("%d ",n1);
