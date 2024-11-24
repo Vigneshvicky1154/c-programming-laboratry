@@ -1,21 +1,21 @@
 #include <stdio.h>
-
 int main() 
 {
-    char binaryString[100];
-    int decimal = 0;
-    int i = 0;
-    scanf("%s", binaryString);
-    while (binaryString[i] != '\0')
+    char a[20];
+    scanf("%s",a);
+    int i=0,d=0;
+    while(a[i]!='\0')
     {
-        decimal = decimal * 2;
-        if (binaryString[i] == '1') 
+        d=d*2;
+        if(a[i]=='1')
         {
-            decimal += 1;
+            d=d+1;
         }
         i++;
     }
+	printf("%d",d);
+	return 0;
 
-    printf("Decimal equivalent: %d\n", decimal);
-    return 0;
 }
+
+
